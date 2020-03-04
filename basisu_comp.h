@@ -321,7 +321,7 @@ namespace basisu
 		param<int> m_global_mod_bits;
 		
 		// mipmap generation parameters
-		bool_param<false> m_mip_gen;
+		bool_param<true> m_mip_gen;
 		param<float> m_mip_scale;
 		std::string m_mip_filter;
 		bool_param<false> m_mip_srgb;
