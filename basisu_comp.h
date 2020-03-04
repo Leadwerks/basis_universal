@@ -404,7 +404,10 @@ namespace basisu
 
 		basisu_backend m_backend;
 
+	public:
 		basisu_file m_basis_file;
+	private:
+
 
 		std::vector<gpu_image> m_decoded_output_textures;
 		std::vector<image> m_decoded_output_textures_unpacked;
