@@ -1,1 +1,1 @@
-executable files go here
+This EXE defaults to generate mipmaps.
